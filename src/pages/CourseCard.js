@@ -12,30 +12,30 @@ export default function CourseCard({ course, img }) {
     const navigate = useNavigate()
   return (
     <div>
-      <Card elevation={10}>
-    <CardActionArea>
-        <CardMedia
-        style={{ height: "250px", paddingTop: "2%" }}
-        component="img"
-        // height="140"
-        image={course.imgpath}
-        //   alt="green iguana"
-        />
-        <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-            {course.title}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-            { course.description }
-        </Typography>
-        </CardContent>
-    </CardActionArea>
-    <CardActions>
-        <Button size="small" color="primary" onClick={() => navigate('/mod1')}>
-        Goto
-        </Button>
-    </CardActions>
-    </Card>
+      <Card className='courseCard' elevation={10}>
+        <CardActionArea>
+            <CardMedia
+            style={{ height: "250px", paddingTop: "2%" }}
+            component="img"
+            // height="140"
+            image={course.imgpath}
+            //   alt="green iguana"
+            />
+            <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+                {course.title}
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+                { course.description }
+            </Typography>
+            </CardContent>
+        </CardActionArea>
+        <CardActions>
+            <Button size="small" color="primary" onClick={() => navigate('/mod1')}>
+            Goto
+            </Button>
+        </CardActions>
+      </Card>
     </div>
   )
 }

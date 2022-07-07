@@ -2,24 +2,11 @@ import React from 'react'
 import { Typography, makeStyles } from '@material-ui/core'
 import WelcomePgContent from './WelcomePgContent';
 import WelcomePGUCONN from './WelcomePGUCONN';
-// import { ScrollContainer, ScrollPage, Animator, batch, Sticky, Fade, MoveOut, Zoom, StickyIn, FadeIn, ZoomIn } from 'react-scroll-motion';
-// import {teal} from '@mui/material/colors';
-// import { spacing } from '@mui/system';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+import CourseCard from './CourseCard'
 
-// const theme = createTheme({
-//     palette: {
-//       secondary: {
-//         main: teal[50]
-//       } 
-//     },
-//     typography: {
-//       "fontFamily": `'Poppins', sans-serif`,
-//       allVariants: {
-//         color: "common.white"
-//       }
-  
-//      }
-// })
 const useStyles = makeStyles({
   root: {
     color: 'white',
@@ -29,8 +16,47 @@ const useStyles = makeStyles({
   }
 });
 
-const Welcome = () => {
+
+const Welcome = ({ courses }) => {
   const classes = useStyles();
+  const settings = {
+    dots: true,
+    // arrows: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    className: 'slides',
+    // responsive: [
+    //   {
+    //     breakpoint: 1024,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 3,
+    //       infinite: true,
+    //       dots: true
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 600,
+    //     settings: {
+    //       slidesToShow: 2,
+    //       slidesToScroll: 2,
+    //       initialSlide: 2
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 480,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1
+    //     }
+    //   }
+    // ]
+  };
   return (
     <div>
       <div className='bkimg'>
@@ -56,6 +82,9 @@ const Welcome = () => {
             </Typography>
         </div>
       </div>
+      <Slider {...settings}>
+        {courses.map(course => (<CourseCard course={course}/>))}
+      </Slider>
       <WelcomePgContent />
       <div>
         <div className='uconn-img-container'></div>

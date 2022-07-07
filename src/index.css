@@ -30,7 +30,7 @@ code {
   /* display: flex; */
   /* align-items: center; */
   /* justify-content: center; */
-  opacity: 75%;
+  /* opacity: 75%; */
 }
 
 .welcome-header {
@@ -92,6 +92,7 @@ nav h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* height: 1000px; */
 }
 
 .uconn-text {
@@ -174,5 +175,9 @@ nav h1 {
 .courseCard {
   margin-right: 30px;
   margin-left: 30px;
-  /* max-height: 1050px; */
+  /* border-radius: 25px; */
+  /* max-height: 1500px; */
 }
+/* .slick-slider {
+  height: 100px; 
+} */

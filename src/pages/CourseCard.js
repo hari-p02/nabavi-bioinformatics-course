@@ -7,12 +7,12 @@ import { CardContent,  Button, CardActionArea, CardMedia, CardActions} from '@ma
 import Typography from '@material-ui/core/Typography'
 // import DeleteOutlined from '@material-ui/icons/DeleteOutlined'
 
-export default function CourseCard({ course, img }) {
+export default function CourseCard({ course, sha }) {
 //   const path = "../images/introbio.jpg";
     const navigate = useNavigate()
   return (
     <div>
-      <Card className='courseCard' elevation={10}>
+      <Card className='courseCard' elevation={sha}>
         <CardActionArea>
             <CardMedia
             style={{ height: "250px", paddingTop: "2%" }}

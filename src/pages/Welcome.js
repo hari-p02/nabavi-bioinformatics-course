@@ -57,7 +57,12 @@ const Welcome = () => {
         </div>
       </div>
       <WelcomePgContent />
-      <WelcomePGUCONN />
+      <div>
+        <div className='uconn-img-container'></div>
+          <p>
+                Ab rerum aliquid in sint omnis ut voluptatem corrupti ea voluptatibus fuga et beatae molestias ea rerum fugiat. Qui internos perspiciatis non tenetur optio ut quas officiis eum autem saepe. Et dolor dolorum et vero nemo et quibusdam rerum eos suscipit molestias. Non dolores omnis ab error voluptatem cupiditate praesentium est delectus consequatur et dolor vero et dolore eligendi aut doloribus tempora.
+          </p>
+      </div>
     </div>
   )
 }

@@ -13,7 +13,7 @@ code {
 }
 /* top right bottom eft */
 .bkimg {
-  background-image: url(.\\images\\homepgpic.jpg);
+  background-image: url(.\\images\\heading.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,6 +30,7 @@ code {
   /* display: flex; */
   /* align-items: center; */
   /* justify-content: center; */
+  opacity: 75%;
 }
 
 .welcome-header {
@@ -138,17 +139,15 @@ nav h1 {
 } 
 
 .grid-1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
+  align-self: center;
+  justify-self: center;
+  padding: 100px;
 }
 
 .grid-4 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
+  align-self: center;
+  justify-self: center;
+  padding: 100px;
 }
 
 .grid-2 {

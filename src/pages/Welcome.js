@@ -33,8 +33,8 @@ const Welcome = ({ courses }) => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 1,
           infinite: true,
           dots: true
         }
@@ -42,8 +42,8 @@ const Welcome = ({ courses }) => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           initialSlide: 2
         }
       },
@@ -87,10 +87,28 @@ const Welcome = ({ courses }) => {
       <WelcomePgContent />
       <div>
         <div className='uconn-img-container'></div>
-          <p>
+          {/* <p>
                 Ab rerum aliquid in sint omnis ut voluptatem corrupti ea voluptatibus fuga et beatae molestias ea rerum fugiat. Qui internos perspiciatis non tenetur optio ut quas officiis eum autem saepe. Et dolor dolorum et vero nemo et quibusdam rerum eos suscipit molestias. Non dolores omnis ab error voluptatem cupiditate praesentium est delectus consequatur et dolor vero et dolore eligendi aut doloribus tempora.
-          </p>
+          </p> */}
       </div>
+      {/* <div className='below-uconn'>
+        <div className='below-uconn-text'>
+            <Typography 
+              variant="h6" 
+              // className={classes.root} 
+              >
+            Ab rerum aliquid in sint omnis
+            ut voluptatem corrupti ea voluptatibus 
+            fuga et beatae molestias ea rerum fugiat. 
+            Qui internos perspiciatis non tenetur optio ut 
+            quas officiis eum autem saepe. Et dolor dolorum 
+            et vero nemo et quibusdam rerum eos suscipit 
+            molestias. Non dolores omnis ab error voluptatem 
+            cupiditate praesentium est delectus consequatur 
+            et dolor vero et dolore eligendi aut doloribus tempora.
+          </Typography>
+        </div>
+      </div> */}
     </div>
   )
 }

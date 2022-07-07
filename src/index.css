@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(32, 224, 192, 0.13);
+  /* background-color: rgba(34, 210, 216, 0.945); */
 }
 
 code {
@@ -33,6 +35,33 @@ code {
   /* opacity: 75%; */
 }
 
+.below-uconn {
+  background-image: url(.\\images\\greendes.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px;
+  margin: 50px;
+  /* border: 5px solid black; */
+  /* margin: 50px 50px 200px 50px; */
+  height: 300px;
+  /* width: 30%; */
+  font-weight: bold;
+  /* opacity: 0.85; */
+  border-radius: 25px;
+  position: relative;
+  text-align: center;
+  color: rgb(25, 84, 212);
+  
+}
+
+.below-uconn-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
 .welcome-header {
   position: absolute;
   top: 60%;
@@ -53,6 +82,9 @@ nav {
   margin: 0px 50px 0px 50px;
   border-bottom: 1px solid #e2e2e2;
   margin-bottom: 40px;
+  padding: 10px;
+  border: 5px solid rgba(27, 106, 109, 0.644);
+  border-radius: 25px;
 }
 nav h1 {
   margin-right: auto;

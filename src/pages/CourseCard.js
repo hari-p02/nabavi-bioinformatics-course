@@ -13,13 +13,11 @@ export default function CourseCard({ course, sha }) {
   return (
     <div>
       <Card className='courseCard' elevation={sha}>
-        <CardActionArea>
-            <CardMedia
+        <CardActionArea disableRipple >
+            <CardMedia 
             style={{ height: "250px", paddingTop: "2%" }}
             component="img"
-            // height="140"
             image={course.imgpath}
-            //   alt="green iguana"
             />
             <CardContent>
             <Typography gutterBottom variant="h5" component="div">

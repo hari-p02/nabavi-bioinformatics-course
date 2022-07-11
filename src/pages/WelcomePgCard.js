@@ -10,7 +10,7 @@ const WelcomePgCard = ({ course }) => {
             <ul className="content-list">
                 <li>{"Module ".concat(course.module_num)}</li>
                 <li>Intro </li>
-                <li>Hari</li>
+                <li>Name</li>
             </ul>
         </div>
         <div className="card-body">

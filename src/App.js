@@ -63,7 +63,7 @@ const App = () => {
     // <Lessons />
     <BrowserRouter>
     {/* <SideBar /> */}
-    <div class="navigation">
+    {/* <div class="navigation">
       <nav>
         <ul class="nav-type">
           <li><Link to="/"><a href=" " class="active">Home</a></Link></li>
@@ -73,12 +73,14 @@ const App = () => {
           <div class="line"></div>
         </ul>
       </nav>
+    </div> */}
+    <div className='nav-container'>
+      <nav>
+        <h1>Nabavi Bioinformatics</h1>
+        <Button variant='text'><Link to="/" style={{textDecoration: 'none'}}>Home</Link></Button>
+        <Button variant='text'><Link to="/lessons" style={{textDecoration: 'none'}}>Lessons</Link></Button>
+      </nav>
     </div>
-    {/* <nav>
-      <h1>Nabavi Bioinformatics</h1>
-      <Button variant='text'><Link to="/" style={{textDecoration: 'none'}}>Home</Link></Button>
-      <Button variant='text'><Link to="/lessons" style={{textDecoration: 'none'}}>Lessons</Link></Button>
-    </nav> */}
     <Routes>
       <Route path="/" element={<Welcome courses={courses} />} />
       {/* <Route path="/about/*" element={<About />} /> */}

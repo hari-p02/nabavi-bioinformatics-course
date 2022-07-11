@@ -109,6 +109,9 @@ const Welcome = ({ courses }) => {
           </Typography>
         </div>
       </div> */}
+      <div className='placeholder'>
+
+      </div>
     </div>
   )
 }

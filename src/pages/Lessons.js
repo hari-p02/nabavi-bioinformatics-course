@@ -5,16 +5,13 @@ import CourseCard from './CourseCard'
 const Lessons = ({ courses }) => {
 
   return (
-    <div className='grid-container-2'>
-    {/* // <Container maxWidth="lg"> */}
-        {/* // <Grid container style={{ gap: 15 }}> */}
-            {courses.map(course => (
-                // <Grid key={course.module_num} xs={12} md={3} lg={5}>
-                    <CourseCard course={course} sha={11}/>
-                // </Grid>
-            ))}
-        {/* </Grid> */}
-    {/* // </Container> */}
+    <div>
+      <div className='lessonbkimg'></div>
+      <div className='grid-container-2'>
+              {courses.map(course => (
+                      <CourseCard course={course} sha={11}/>
+              ))}
+      </div>
     </div>
   )
 }

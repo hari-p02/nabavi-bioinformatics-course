@@ -35,6 +35,24 @@ code {
   text-align: center;
 }
 
+.lessonbkimg {
+  background-image: url(.\\images\\lesson.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-left: 0;
+  margin-left: 0;
+
+  height: 60vh;
+  font-weight: bold;
+  /* border-radius: 25px; */
+  position: relative;
+  text-align: center;
+}
+
 /* .below-uconn {
   background-image: url(.\\images\\greendes.jpg);
   background-position: center;

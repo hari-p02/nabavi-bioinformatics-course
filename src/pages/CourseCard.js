@@ -11,7 +11,7 @@ export default function CourseCard({ course, sha }) {
 //   const path = "../images/introbio.jpg";
     const navigate = useNavigate()
   return (
-    <div>
+    <div key={course.module_num}>
       <Card className='courseCard' elevation={sha}>
         <CardActionArea disableRipple >
             <CardMedia 

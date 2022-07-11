@@ -14,72 +14,66 @@ import gene_var from './images/gene_var.jpg'
 import foren from './images/foren.jpg'
 import evolution from './images/evolution.jpg'
 
-
 const courses = [
   {
       module_num: 1,
-      title: "INTRODUCTION TO BIOINFORMATICS",
+      title: "Introduction to Bioinformatics",
       imgpath: introbio,
-      description: "Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Volutpat sed cras ornare arcu dui vivamus. Eget nunc lobortis mattis aliquam. Aliquam etiam erat velit scelerisque in dictum non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Lacus luctus accumsan tortor posuere ac. Consequat semper viverra nam libero justo laoreet sit amet cursus. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Nec feugiat nisl pretium fusce id velit ut tortor pretium.",
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore ipsam quisquam! Cum incidunt praesentium blanditiis fugiat, iste ipsam facilis!",
   },
   {
       module_num: 2,
-      title: "INTRODUCTION TO PROGRAMMING",
+      title: "Introduction to Programming",
       imgpath: pylogo,
-      description: "Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Volutpat sed cras ornare arcu dui vivamus. Eget nunc lobortis mattis aliquam. Aliquam etiam erat velit scelerisque in dictum non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Lacus luctus accumsan tortor posuere ac. Consequat semper viverra nam libero justo laoreet sit amet cursus. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Nec feugiat nisl pretium fusce id velit ut tortor pretium.",
-  },
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore ipsam quisquam! Cum incidunt praesentium blanditiis fugiat, iste ipsam facilis!",},
   {
       module_num: 3,
-      title: "GENOME & SEQUENCE ALIGNMENT",
+      title: "Geneome & Seqeunce Alignment",
       imgpath: geneome,
-      description: "Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Volutpat sed cras ornare arcu dui vivamus. Eget nunc lobortis mattis aliquam. Aliquam etiam erat velit scelerisque in dictum non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Lacus luctus accumsan tortor posuere ac. Consequat semper viverra nam libero justo laoreet sit amet cursus. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Nec feugiat nisl pretium fusce id velit ut tortor pretium.",
-  },
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore ipsam quisquam! Cum incidunt praesentium blanditiis fugiat, iste ipsam facilis!",},
   {
       module_num: 4,
-      title: "GENE & PROTEIN EXPRESSION",
+      title: "Gene & Protein Expression",
       imgpath: protein,
-      description: "Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Volutpat sed cras ornare arcu dui vivamus. Eget nunc lobortis mattis aliquam. Aliquam etiam erat velit scelerisque in dictum non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Lacus luctus accumsan tortor posuere ac. Consequat semper viverra nam libero justo laoreet sit amet cursus. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Nec feugiat nisl pretium fusce id velit ut tortor pretium.",
-  },
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore ipsam quisquam! Cum incidunt praesentium blanditiis fugiat, iste ipsam facilis!",},
   {
       module_num: 5,
-      title: "GENOMIC VARIATIONS",
+      title: "Geneomic Variations",
       imgpath: gene_var,
-      description: "Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Volutpat sed cras ornare arcu dui vivamus. Eget nunc lobortis mattis aliquam. Aliquam etiam erat velit scelerisque in dictum non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Lacus luctus accumsan tortor posuere ac. Consequat semper viverra nam libero justo laoreet sit amet cursus. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Nec feugiat nisl pretium fusce id velit ut tortor pretium.",
-  },
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore ipsam quisquam! Cum incidunt praesentium blanditiis fugiat, iste ipsam facilis!",},
   {
       module_num: 6,
-      title: "EVOLUTION",
+      title: "Evolution",
       imgpath: evolution,
-      description: "Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Volutpat sed cras ornare arcu dui vivamus. Eget nunc lobortis mattis aliquam. Aliquam etiam erat velit scelerisque in dictum non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Lacus luctus accumsan tortor posuere ac. Consequat semper viverra nam libero justo laoreet sit amet cursus. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Nec feugiat nisl pretium fusce id velit ut tortor pretium.",
-  },
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore ipsam quisquam! Cum incidunt praesentium blanditiis fugiat, iste ipsam facilis!",},
   {
       module_num: 7,
       title: "Machine Learning Applications",
       imgpath: ml,
-      description: "Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Volutpat sed cras ornare arcu dui vivamus. Eget nunc lobortis mattis aliquam. Aliquam etiam erat velit scelerisque in dictum non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Lacus luctus accumsan tortor posuere ac. Consequat semper viverra nam libero justo laoreet sit amet cursus. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Nec feugiat nisl pretium fusce id velit ut tortor pretium.",
-  },
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore ipsam quisquam! Cum incidunt praesentium blanditiis fugiat, iste ipsam facilis!",
+    },
   {
       module_num: 8,
-      title: "APPLICATIONS OF BIOINFORMATICS",
+      title: "Applications of Bioinformatics",
       imgpath: foren,
-      description: "Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Volutpat sed cras ornare arcu dui vivamus. Eget nunc lobortis mattis aliquam. Aliquam etiam erat velit scelerisque in dictum non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Lacus luctus accumsan tortor posuere ac. Consequat semper viverra nam libero justo laoreet sit amet cursus. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Nec feugiat nisl pretium fusce id velit ut tortor pretium.",
-  },
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore ipsam quisquam! Cum incidunt praesentium blanditiis fugiat, iste ipsam facilis!",
+     },
   {
       module_num: 9,
-      title: "ETHICS",
+      title: "Ethics",
       imgpath: ethics,
-      description: "Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Volutpat sed cras ornare arcu dui vivamus. Eget nunc lobortis mattis aliquam. Aliquam etiam erat velit scelerisque in dictum non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Lacus luctus accumsan tortor posuere ac. Consequat semper viverra nam libero justo laoreet sit amet cursus. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Nec feugiat nisl pretium fusce id velit ut tortor pretium.",
-  },
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore ipsam quisquam! Cum incidunt praesentium blanditiis fugiat, iste ipsam facilis!",
+    },
 ]
 const App = () => {
   return (
     // <Lessons />
     <BrowserRouter>
+    {/* <SideBar /> */}
     <nav>
       <h1>Nabavi Bioinformatics</h1>
       <Button variant='text'><Link to="/" style={{textDecoration: 'none'}}>Home</Link></Button>
       <Button variant='text'><Link to="/lessons" style={{textDecoration: 'none'}}>Lessons</Link></Button>
-      {/* <Link to="/products">Products</Link> */}
     </nav>
     <Routes>
       <Route path="/" element={<Welcome courses={courses} />} />

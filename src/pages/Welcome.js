@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import CourseCard from './CourseCard'
-
+import WelcomePgCard from './WelcomePgCard';
 const useStyles = makeStyles({
   root: {
     color: 'white',
@@ -27,7 +27,7 @@ const Welcome = ({ courses }) => {
     slidesToScroll: 1,
     initialSlide: 0,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 5000,
     // className: 'slides',
     responsive: [
       {
@@ -82,7 +82,7 @@ const Welcome = ({ courses }) => {
         </div>
       </div>
       <Slider {...settings}>
-        {courses.map(course => (<CourseCard course={course} sha={0}/>))}
+        {courses.map(course => (<WelcomePgCard course={course}/>))}
       </Slider>
       <WelcomePgContent />
       <div>

@@ -83,6 +83,13 @@ code {
   transform: translate(-50%, -100%);
 }
 
+.lessonheader {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
 .papers {
   margin: 50px 100px 50px 100px;
 
@@ -113,9 +120,9 @@ nav {
   /* border: 5px solid rgba(27, 106, 109, 0.644); */
   border-radius: 25px;
 }
-nav h1 {
+/* nav h1 {
   margin-right: auto;
-} 
+}  */
 
 .uconn-img-container {
   background-image: url("./images/UCONN.jpg");

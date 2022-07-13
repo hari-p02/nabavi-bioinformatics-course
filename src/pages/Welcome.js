@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
 import CourseCard from './CourseCard'
 import WelcomePgCard from './WelcomePgCard';
+import Footer from './Footer';
 const useStyles = makeStyles({
   root: {
     color: 'white',
@@ -109,9 +110,7 @@ const Welcome = ({ courses }) => {
           </Typography>
         </div>
       </div> */}
-      <div className='placeholder'>
-
-      </div>
+      <Footer />
     </div>
   )
 }

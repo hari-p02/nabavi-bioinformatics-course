@@ -1,0 +1,1 @@
+{"Setup\n\n    import numpy as np\n    import tensorflow as tf\n    from tensorflow import keras\n    import tensorflow_datasets as tfds\n    import matplotlib.pyplot as plt\n    from tensorflow.keras import layers\n\n    import pandas as pd\n\nGetting the data\n\n    tfds.disable_progress_bar()\n\n    train_ds, validation_ds, test_ds ": null}

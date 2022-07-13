@@ -22,7 +22,8 @@ const Lessons = ({ courses }) => {
           </Typography>
         </div>
       </div>
-      <div className='grid-container-2'>
+      {/* <div className='grid-container-2'> */}
+      <div className='lessons-container'>
               {courses.map(course => (
                       <CourseCard course={course} sha={11}/>
               ))}
